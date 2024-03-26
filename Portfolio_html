@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- heading and navigation -->
+    <div class="nav">
+
+
+        <h3 class="logo">V U</h3>
+
+        <div class="navdiv">
+            <ul class="navul">
+                <li class="navli"> <a class="a_nav" href="#">Home</a> </li>
+                <li class="navli"> <a class="a_nav" href="#">Projects</a></li>
+                <li class="navli"> <a class="a_nav" href="#">Skillset</a> </li>
+                <li class="navli"> <a class="a_nav" href="#">Contacts</a> </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="intro">
+        <!-- my image -->
+        <div class="imgdiv">
+
+            <img class="myimg" src="imageV.png" alt="my image">
+        </div>
+        <div class="introo">
+            <h4 class="vedansh" id="hi">Hi, I am</h4>
+            <h1 class="vedansh">Vedansh Upadhyay.</h1>
+            <p class="myself">Welcome to my portfolio! I specialize in HTML, CSS, and basic JavaScript, with a keen
+                interest in front-end web development. Currently, I am diving into Data Structures and Algorithms to
+                enhance my problem-solving skills. As a quick learner, I am dedicated to staying at the forefront of
+                technology. Join me as I bring creativity to life through code. Contact: vedanshupadhyay1401@gmail.com </p>
+        </div>
+    </div>
+    <div class="sections">
+        <div class="projects">
+            <h1 class="sectionheading"> PROJECTS :</h1>
+            <div class="cards">
+                <div class="c" id="c1">
+                    <h2 class="head">Nikon Webpage Clone</h2>
+                    <img class="ss" src="D:\CODE AREA\WEBdev\PORTFOLIO\NIKON SS.png" alt="Nikon img">
+                    <p class="about">Welcome to my Nikon webpage clone! This project is a responsive reproduction of the
+                        official Nikon website, meticulously crafted using HTML and vanilla CSS.Dive into the code on
+                        GitHub to explore how this clone was built: GitHub Repo link : <a
+                            href="https://github.com/Vedanshh14/Nikon-Clone" target="_blank">GitHub Repo</a></p>
+                </div>
+                <div class="c" id="c2">
+                    <h2 class="head">CSS Competiton</h2>
+                    <img class="ss" src="D:\CODE AREA\WEBdev\PORTFOLIO\inventoimg.png" alt="invento img">
+                    <p class="about">Welcome to my Nexcent clone project! Crafted for a CSS competition held by IET
+                        DAVV, this project showcases my ability to rapidly prototype and design compelling web
+                        experiences using HTML and CSS. Completed in under an hour, this clone captures the essence of
+                        the original design while demonstrating efficiency and proficiency in front-end development.
+                        GitHub Repo link : <a href="https://github.com/Vedanshh14/Nexcent-for-Invento-IET-DAVV"
+                            target="_blank">GitHub Repo</a></p>
+                </div>
+                <div class="c" id="c3">
+                    <h2 class="head">Text to voice converter</h2>
+                    <img class="ss" src="D:\CODE AREA\WEBdev\PORTFOLIO\textaudio.png" alt="text to audio">
+                    <p class="about">Introducing the Text to Voice Converter, a JavaScript-powered application designed
+                        to transform written text into spoken words. This project is still not fully made but will come
+                        with a diverse range of voice options, this project offers flexibility and customization for
+                        users. This converter seamlessly converts text input into lifelike speech, enhancing
+                        accessibility and user experience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <h1 class="sectionheading"> SOCIAL LINKS :</h1>
+            <div class="cards">
+                <div class="c" id="c1">
+                    <h2 class="head">LinkedIN Profile</h2>
+                    <img class="ss" src="D:\CODE AREA\WEBdev\PORTFOLIO\linkedinme.png" alt="Nikon img">
+                    <p class="about">Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/vedansh-upadhyay-4a3898260" target="_blank">Connect!!</a></p>
+
+                </div>
+                <div class="c" id="c2">
+                    <h2 class="head">Leetcode Profile</h2> 
+                    <img class="ss" src="D:\CODE AREA\WEBdev\PORTFOLIO\LeetcodeMe.png" alt="invento img">
+                    <p class="about">Learning DSA I have solved 60+ leetcode questions <br> <br><br> Here is my leetcode profile: <a
+                            href="https://leetcode.com/Vedansh1401/" target="_blank">Leetcode</a></p>
+                </div>
+                <div class="c" id="c3">
+                    <h2 class="head">CodeChef Profile</h2>
+                    <img class="ss" src="D:\CODE AREA\WEBdev\PORTFOLIO\codechefme.png" alt="text to audio">
+                    <p class="about">I am a newie at codechef , improving my competitive programming skills here <br> <br><br> Here is my CodeChef profile: <a
+                        href="https://www.codechef.com/users/vedansh14" target="_blank">CodeChef</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
