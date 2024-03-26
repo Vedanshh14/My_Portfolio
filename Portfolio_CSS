@@ -1,0 +1,176 @@
+*{
+   
+    color: #d8e9fd;
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px ;
+    font-size: 16px;
+   
+}
+    
+    
+
+body{
+    background-color: #050f18;
+   
+
+}
+
+.nav{
+  
+    /* background-color: #252525; */
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+   
+}
+.navdiv{
+    margin-top: 15px;
+}
+.logo{
+
+    font-size: 28px;
+    padding: 7px;
+    padding-left: 10px;
+    margin-left: 25px ;
+    margin-top: 12px;
+    color: #55c2c3;
+    
+    font-family: 'Raleway', sans-serif;
+}
+.navul{
+    display: flex;
+    margin: 0px 5px;
+   
+    list-style: none;
+}
+.navli{
+    
+    margin-right: 40px;
+    margin-top: 13px;
+   
+}
+.a_nav{
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 2px solid #67bdbe;
+    font-size: 14px;
+    border-radius: 8px;
+    
+    font-family: 'Raleway', sans-serif;
+}
+.a_nav:hover{
+    background-color: #55c2c3;
+    border-radius: 10px;
+    color: #050f18;
+    font-weight: 800;
+    
+    
+}
+.intro{
+    display: flex;
+    /* background-color: #252525; */
+    margin-top: 110px;
+    margin-bottom: 60px;
+    margin-left: 123px;
+}
+.myimg{
+    height: 223px;
+    width: 223px;
+    margin-top: 5px;
+    margin-left: 66px;
+     
+}
+.imgdiv{
+    
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+}
+.introo{
+    
+    width: 500px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.myself{
+    margin-top: 10px;
+}
+.vedansh{
+    font-size: 50px;
+    color: #67bdbe;
+    font-family: 'Raleway', sans-serif;
+   
+}
+#hi{
+    font-size: 25px;
+    color: #d8e9fd;
+    
+    font-family: 'Raleway', sans-serif;
+}
+.projects{
+    
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.sectionheading{
+    display: inline;
+    color: #d8e9fd;
+    font-size: 30px;
+    /* border: 1px solid #67bdbe; */
+    padding: 4px;
+   
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+/* .cards{
+    display: flex;
+    text-align: justify;
+}
+.c{
+    margin: 35px 29px;
+    border: 1px solid #67bdbe ;
+    border-radius: 10px;
+} */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    background-color: #050f18;
+}
+
+.c {
+    margin: 35px 29px;
+    border: 1px solid #67bdbe ;
+    border-radius: 10px;
+    flex: 1;
+    margin-bottom: 20px; /* Optional: Add some spacing between each card */
+    width: calc(33.33% - 20px); /* 3 cards per row (adjust as needed) */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    background-color: #050f18;
+}
+
+
+
+.about{
+    /* margin-top: 15px; */
+    margin: 15px;
+}
+.ss {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+.head{
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+   
+}
